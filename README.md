@@ -1,3 +1,3 @@
 # mywebsite
 # Buzzthrough
-buzzthrough.netlify.app
+https://buzzthrough.netlify.app
