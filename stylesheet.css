@@ -540,7 +540,7 @@ h2{
     margin-bottom: 3rem;
     color: transparent;
     -webkit-text-stroke: 1px #b85ffc ;
-    background: url(back.png) ;
+    background: url(img/back.png) ;
     -webkit-background-clip: text;
     animation: back 20s linear infinite;
     
