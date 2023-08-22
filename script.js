@@ -201,3 +201,12 @@ const slider = function () {
   })
 
     
+  const send = document.querySelector('.footer_btn');
+  const message = document.querySelector('.message');
+
+  send.addEventListener('click',function(e){
+    e.preventDefault();
+    message.value = "";
+    alert('Message sent')
+    
+  })
