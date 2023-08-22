@@ -190,6 +190,7 @@ const slider = function () {
     menu_item.classList.add('show');
     menuclose.classList.remove('hidden');
     menu_item.classList.remove('hidden');
+    links.style.display = "block";
     
   })
 
@@ -198,6 +199,7 @@ const slider = function () {
     menu_item.classList.remove('show');
     menu_item.classList.add('hidden');
     menuclose.classList.toggle('hidden')
+    links.style.display = "none";
   })
 
     

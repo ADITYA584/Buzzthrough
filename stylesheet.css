@@ -102,7 +102,7 @@ body {
     position: fixed;
     background-color: rgba(0, 0, 0);
     z-index: 11;
-    /* width: calc(95%; */
+    width: 100%;
     top: 0;
   }
 
@@ -112,6 +112,7 @@ body {
 
 .nav_links{
     display: flex;
+    color:white;
     align-items: center;
     list-style: none;
 }
@@ -679,6 +680,7 @@ form input{
         padding-top:8rem;
         background-color: #7848e9;
         transform: translateX(100%);
+        display:none;
     }
     
     .nav_link{
